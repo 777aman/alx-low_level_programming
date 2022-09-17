@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "main.h"
 
 
@@ -70,5 +69,4 @@ else if (b > c && b > a)
   }
   return (largest);
 }
-                                 
->>>>>>> e4e5a5c595c156575cc6ddc5e549c353d44c098b
+                              
