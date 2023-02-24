@@ -1,22 +1,13 @@
 #include "main.h"
 
 /**
- * more_numbers - print more numbers
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-
-void more_numbers(void)
+int main(void)
 {
-	int i, j;
-
-	for (i = 1; i <= 10; i++)
-	{
-		for (j = 0; j <= 14; j++)
-		{
-			if (j >= 10)
-				_putchar('1');
-			_putchar (j % 10 + '0');
-		}
-		_putchar('\n');
-	}
+    print_most_numbers();
+    return (0);
 }
 
