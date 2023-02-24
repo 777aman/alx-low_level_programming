@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- *print_most_numbers - prints
- * owned by Bwave ICT
- *Return: void
- **/
+ * more_numbers - print more numbers
+ */
 
-void print_most_numbers(void)
-
+void more_numbers(void)
 {
-		char c;
-		 for (c = '0'; c <= '9'; c++)
+	int i, j;
+
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
 		{
-			if (!(c == '2' || c == '4'))
-				_putchar(c);
+			if (j >= 10)
+				_putchar('1');
+			_putchar (j % 10 + '0');
 		}
 		_putchar('\n');
+	}
 }
+
